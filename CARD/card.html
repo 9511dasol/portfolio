@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="..\css\nav_bar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 100%;
+            /* 이미지를 부모 요소에 맞게 조정 */
+            height: auto;
+            /* 자동으로 높이를 조정하여 비율 유지 */
+        }
+
+        .description {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navbar_menu">
+            <li><a href="..\Portfolio.html#myinfo">About</a></li>
+            <li><a href="..\Portfolio.html#_skill">Skills</a></li>
+            <li><a href="..\Portfolio.html#projects">Project</a></li>
+            <li><a href="..\Portfolio.html#footer">contact</a></li>
+        </ul>
+        <a href="#" class="navbar_toogleBtn">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    </nav>
+    <div class="container">
+        <div class="image-container">
+            <img src="main.png">
+        </div>
+        <div class="description">
+            <h2>Main</h2>
+            <p>카드 메인 페이지</p>
+        </div>
+        <div class="image-container">
+            <img src="manage.png">
+        </div>
+        <div class="description">
+            <h2>관리</h2>
+            <p>카드, 1:1 문의 내역, FAQ 등 관리할 수 있다.</p>
+        </div>
+        <div class="image-container">
+            <img src="card_list.png">
+        </div>
+        <div class="description">
+            <h2>카드 등록 리스트</h2>
+            <p>등록된 카드사의 카드들을 조회할 수 있다 </p>
+        </div>
+        <div class="image-container">
+            <img src="find_card.png">
+        </div>
+        <div class="description">
+            <h2>카드 조회</h2>
+            <p>카드사, p/dc= 포인트형/ 할인형, 혜택 세부 사항 선택후 카드 조회</p>
+        </div>
+        <div class="image-container">
+            <img src="Main_Contents.png">
+        </div>
+        <div class="description">
+            <h2>자연어 처리를 이용한 카드 추천</h2>
+            <p>특정 커뮤니티들에 올라오는 게시글을 이용, 최근 축척된 데이터를 활용하여 카드 추천</p>
+        </div>
+        <div class="image-container">
+            <img src="FAQ.png">
+        </div>
+        <div class="description">
+            <h2>FAQ</h2>
+            <p>주로 궁금한 질의 응답</p>
+        </div>
+        <div class="image-container">
+            <img src="Q.png">
+        </div>
+        <div class="description">
+            <h2>1:1 문의</h2>
+            <p>개선점이나 불편사항 등 개발자에게 문의하는 수단</p>
+        </div>
+    </div>
+</body>
+
+</html>
