@@ -1,0 +1,19 @@
+.project {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+    width: 100%;
+    /* 부모 요소 너비에 맞게 이미지 크기 조정 */
+    height: auto;
+    /* 자동으로 높이를 조정하여 비율 유지 */
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    /* 이미지 위 여백 추가 */
+}

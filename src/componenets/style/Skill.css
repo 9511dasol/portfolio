@@ -1,0 +1,39 @@
+#skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.skill {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.skill i {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill span {
+    font-size: 18px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 899px) {
+
+}
+
+@media screen and (max-width: 599px) {
+    .skill {
+        display: flex;
+        flex-direction: column;
+    }
+    span{
+        padding-top: 5px;
+        padding-right: 6px;
+    }
+
+}

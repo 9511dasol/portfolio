@@ -1,0 +1,24 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+.home__nav {
+  flex: 0.2;
+  margin-right: 5px;
+}
+.home__list {
+  flex: 0.8;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 899px) {
+
+}
+
+@media screen and (max-width: 599px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+  }
+
+}
