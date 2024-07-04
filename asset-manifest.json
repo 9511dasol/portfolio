@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.92ee4de6.css",
+    "main.js": "/portfolio/static/js/main.3d840630.js",
+    "static/media/한다솔.jpg": "/portfolio/static/media/한다솔.ffbc437d3e397b8fce6d.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.92ee4de6.css.map": "/portfolio/static/css/main.92ee4de6.css.map",
+    "main.3d840630.js.map": "/portfolio/static/js/main.3d840630.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92ee4de6.css",
+    "static/js/main.3d840630.js"
+  ]
+}
