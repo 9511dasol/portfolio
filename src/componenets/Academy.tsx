@@ -30,7 +30,7 @@ const projects: Project[] = [
     subheading: "DM of Instagram",
     img: "./img/DM.png",
     description: "인스타그램을 참고하여 만든 인스타그램 dm page",
-    link: "https://github.com/9511dasol/Lotto",
+    link: "https://github.com/9511dasol/dm",
   },
 ]
 
