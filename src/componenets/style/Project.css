@@ -17,3 +17,7 @@
     margin-right: auto;
     /* 이미지 위 여백 추가 */
 }
+
+.project img:hover {
+    transform: scale(1.05);
+}

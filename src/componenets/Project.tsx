@@ -68,7 +68,7 @@ function Project() {
     return (
         <div className='container'>
             <section>
-                <h2>프로젝트(학교)</h2>
+                <h2>Project</h2>
                 {projects.map((project, index) => (
                     <div className="project" key={index}>
                         <h3>{project.title}</h3>

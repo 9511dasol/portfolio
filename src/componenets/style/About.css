@@ -12,9 +12,11 @@
   margin: auto;
 }
 .profile__list {
-  margin: auto;
+  margin-left: 1px;
   display: flex;
   flex-direction: column;
+  padding: 0px;
+  height: 360px;
 }
 
 ul {
