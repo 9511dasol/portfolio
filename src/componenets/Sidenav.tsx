@@ -3,7 +3,7 @@ import "./style/Sidenav.css";
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import ChatIcon from "@mui/icons-material/Chat";
-import SchoolTwoToneIcon from '@mui/icons-material/SchoolTwoTone';
+import AccountTreeIcon from '@mui/icons-material/AccountTree';
 function Sidenav() {
     return (
         <div className='sidenav'>
@@ -14,16 +14,10 @@ function Sidenav() {
                         <span>Home</span>
                     </button>
                 </Link>
-                <Link to={"/universty"}>
+                <Link to={"/project"}>
                     <button className="sidenav__button">
-                        <SchoolTwoToneIcon />
-                        <span>Univ.</span>
-                    </button>
-                </Link>
-                <Link to={"/academy"}>
-                    <button className="sidenav__button">
-                        <SchoolTwoToneIcon />
-                        <span>Acad.</span>
+                        <AccountTreeIcon />
+                        <span>project</span>
                     </button>
                 </Link>
                 <Link to={"/Message"}>

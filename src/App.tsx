@@ -3,21 +3,21 @@ import { BrowserRouter, BrowserRouter as Router, Routes, Route } from "react-rou
 import './App.css';
 import Home from './componenets/Home';
 import About from './componenets/About';
-import Universty from './componenets/Universty';
-import Academy from './componenets/Academy';
+import Project from './componenets/Project';
 import Message from './componenets/Message';
 const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <Router> */}
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<About />} />
           <Route path="/home" element={<About />} />
-          <Route path="/universty" element={<Universty />} />
-          <Route path="/academy" element={<Academy />} />
+          <Route path="/project" element={<Project />} />
           <Route path="/Message" element={<Message />} />
         </Route>
       </Routes>
+      {/* </Router> */}
     </BrowserRouter>
   );
 };

@@ -56,10 +56,10 @@ function Skill() {
                     <FontAwesomeIcon icon={ faHtml5 } />
                     <span>HTML</span>
                 </div>
-                <div className="skill">
+                {/* <div className="skill">
                     <FontAwesomeIcon icon={ faJava } />
                     <span>JAVA</span>
-                </div>
+                </div> */}
             </section>
         </div>
     )
