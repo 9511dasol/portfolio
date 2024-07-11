@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d64ef720.css",
-    "main.js": "/portfolio/static/js/main.33868973.js",
+    "main.css": "/portfolio/static/css/main.7a95075f.css",
+    "main.js": "/portfolio/static/js/main.b6ce36a1.js",
     "static/media/한다솔.jpg": "/portfolio/static/media/한다솔.ffbc437d3e397b8fce6d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.d64ef720.css.map": "/portfolio/static/css/main.d64ef720.css.map",
-    "main.33868973.js.map": "/portfolio/static/js/main.33868973.js.map"
+    "main.7a95075f.css.map": "/portfolio/static/css/main.7a95075f.css.map",
+    "main.b6ce36a1.js.map": "/portfolio/static/js/main.b6ce36a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.d64ef720.css",
-    "static/js/main.33868973.js"
+    "static/css/main.7a95075f.css",
+    "static/js/main.b6ce36a1.js"
   ]
 }
