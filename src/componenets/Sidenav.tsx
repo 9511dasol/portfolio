@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import ChatIcon from "@mui/icons-material/Chat";
 import AccountTreeIcon from '@mui/icons-material/AccountTree';
+import GitHubIcon from '@mui/icons-material/GitHub';
 function Sidenav() {
     return (
         <div className='sidenav'>
@@ -26,6 +27,12 @@ function Sidenav() {
                         <span>Message</span>
                     </button>
                 </Link>
+                <a href='https://github.com/9511dasol'>
+                    <button className="sidenav__button">
+                        <GitHubIcon />
+                        <span>GitHub</span>
+                    </button>
+                </a>
             </div>
         </div>
     )
