@@ -1,6 +1,7 @@
 .window {
   width: 80%;
   height: 80%;
+  min-height: 430px;
   border-radius: 10px;
   background: white;
   overflow: hidden;
@@ -142,7 +143,6 @@ main p {
 }
 
 @media screen and (max-width: 899px) {
-
   .window ul {
     flex-direction: row;
   }

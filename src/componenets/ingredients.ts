@@ -43,7 +43,7 @@ export const projects: Project[] = [
       title: "싸이월드 미니홈피(클론코딩)",
       subheading: "mini Homepage",
       img: "./img/Minihomepage.png",
-      description: "싸이월드 메인 홈페이지와 미니홈피를 참고하여 만든 사이트",
+      description: "싸이월드 메인 홈페이지와 미니홈피 클론코딩",
       link: "https://github.com/9511dasol/MiniProject_2",
   },
   {
