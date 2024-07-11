@@ -11,7 +11,9 @@
 .sc__sl {
   display: inline-flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0px;
 }
 .c__skills {
   display: inline-flex;

@@ -5,7 +5,7 @@ function Message() {
     const navigate = useNavigate();
     const [state, setState] = useState("공사중");
     alert(state)
-    if("공사중" == state){
+    if("공사중" === state){
         navigate("/");
     }
     return (
