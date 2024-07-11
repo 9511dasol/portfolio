@@ -152,6 +152,8 @@ main p {
   .window {
     width: 100%;
     height: 360px;
+    padding: 0px;
+    margin: 0px;
   }
   .window ul {
     flex-direction: row;
