@@ -15,7 +15,8 @@
 
 @media screen and (max-width: 899px) {
   .home__nav {
-    width: 50px;
+  flex: 0.1;
+  width: 50px;
     border-right: 1px;
   }
   .home__list {
