@@ -10,7 +10,6 @@ import "./style/Skill.css";
 // import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 // import { faHtml5 } from "@fortawesome/free-brands-svg-icons";
 // import { faJava } from "@fortawesome/free-brands-svg-icons";
-import styled from 'styled-components';
 
 interface Skills {
     lang: string,
