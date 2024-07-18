@@ -46,7 +46,7 @@ function Skill() {
     ]
     const framework: Skills[] = [
         {lang: 'Django', img: './img/Framework/Django.jpg'},
-        {lang: 'spring', img: './img/Framework/Spring.png'},
+        {lang: 'Spring', img: './img/Framework/Spring.png'},
         {lang: 'Flask', img: './img/Framework/Flask.png'},
         {lang: 'ASP.NET', img: './img/Framework/ASP_dot_Net.png'},
     ]
