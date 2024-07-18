@@ -45,6 +45,12 @@ function Skill() {
         { lang: 'MongoDB', img: "./img/DB/MongoDB.png" },
         { lang: 'Oracle', img: "./img/DB/Oracle.png" },
     ]
+    const framework: Skills[] = [
+        {lang: 'Django', img: './img/Framework/Django.jpg'},
+        {lang: 'spring', img: './img/Framework/Spring.png'},
+        {lang: 'Flask', img: './img/Framework/Flask.png'},
+        {lang: 'ASP.NET', img: './img/Framework/ASP_dot_Net.png'},
+    ]
     return (
         <div className='sc'>
             <h2>Main Skills</h2>
@@ -53,7 +59,7 @@ function Skill() {
                     <h2>FrontEnd</h2>
                     <ul>
                         {frontend.map((skill, index) => (
-                            <li className="project" key={index}>
+                            <li className="skill__list" key={index}>
                                 <img src={skill.img} />
                                 <span className="skill-name">{skill.lang}</span>
                             </li>
@@ -64,18 +70,18 @@ function Skill() {
                     <h2>BackEnd</h2>
                     <ul>
                         {backend.map((skill, index) => (
-                            <li className="project" key={index}>
+                            <li className="skill__list" key={index}>
                                 <img src={skill.img} />
                                 <span className="skill-name">{skill.lang}</span>
                             </li>
                         ))}
                     </ul>
                 </li>
-                <li className='c__skills' id='VC'>
-                    <h2>VC</h2>
+                <li className='c__skills' id='DB'>
+                    <h2>Framework</h2>
                     <ul>
-                        {vercon.map((skill, index) => (
-                            <li className="project" key={index}>
+                        {framework.map((skill, index) => (
+                            <li className="skill__list" key={index}>
                                 <img src={skill.img} />
                                 <span className="skill-name">{skill.lang}</span>
                             </li>
@@ -86,7 +92,19 @@ function Skill() {
                     <h2>DataBase</h2>
                     <ul>
                         {database.map((skill, index) => (
-                            <li className="project" key={index}>
+                            <li className="skill__list" key={index}>
+                                <img src={skill.img} />
+                                <span className="skill-name">{skill.lang}</span>
+                            </li>
+                        ))}
+                    </ul>
+                </li>
+                
+                <li className='c__skills' id='VC'>
+                    <h2>VC</h2>
+                    <ul>
+                        {vercon.map((skill, index) => (
+                            <li className="skill__list" key={index}>
                                 <img src={skill.img} />
                                 <span className="skill-name">{skill.lang}</span>
                             </li>

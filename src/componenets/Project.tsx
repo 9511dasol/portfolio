@@ -9,7 +9,7 @@ import Window from "./Window";
 
 function Project() {
     return (
-        <div>
+        <div className="project__list">
           {projects.map((project, index) => (
             <Window key={index} ingredients={initialTabs} project={project} />
           ))}
