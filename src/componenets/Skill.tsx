@@ -48,6 +48,7 @@ function Skill() {
         {lang: 'Spring', img: './img/Framework/Spring.png'},
         {lang: 'Flask', img: './img/Framework/Flask.png'},
         {lang: 'ASP.NET', img: './img/Framework/ASP_dot_Net.png'},
+        {lang: '.NET', img: './img/Framework/dotnet.png'},
     ]
     return (
         <div className='sc'>
