@@ -47,10 +47,17 @@ export const projects: Project[] = [
       link: "https://github.com/9511dasol/MiniProject_2",
   },
   {
-      title: "DM of Instagram clone coding",
+    title: "Instagram clone coding",
+    subheading: "Instagram",
+    img: "./img/inst-clone.png",
+    description: "인스타그램을 참고하여 만든 인스타그램",
+    link: "https://github.com/9511dasol/dm",
+},
+  {
+      title: "Project of Instagram DM clone coding",
       subheading: "DM of Instagram",
       img: "./img/DM.png",
-      description: "인스타그램을 참고하여 만든 인스타그램 dm page",
+      description: "인스타그램을 참고하여 만든 인스타그램 dm - 프로젝트",
       link: "https://github.com/9511dasol/dm",
   },
 ]
