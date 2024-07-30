@@ -49,30 +49,22 @@
 
 @media screen and (max-width: 899px) {
   .sidenav {
-    display: inline-flex;
-    flex-direction: column;
-    width: 50px;
+    width: 30px;
   }
   .sidenav__button > span {
     display: none;
-    width: 50px;
   }
   .sidenav__buttons {
     flex-direction: column;
-    width: 50px;
+    width: 30px;
   }
-  .sidenav__more {
-    display: none;
-  }
+
 }
 
 @media screen and (max-width: 599px) {
   .sidenav {
-    flex-direction: row;
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    bottom: 0px;
+    bottom: 0.9px;
   }
   .sidenav__button > span {
     display: none;
