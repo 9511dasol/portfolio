@@ -153,7 +153,7 @@ main p {
   pointer-events: none;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1080px) {
   .window {
     width: 100%;
     height: 100%;
@@ -167,6 +167,7 @@ main p {
 
 @media screen and (max-width: 599px) {
   .window {
+    width: 100%;
     height: 360px;
     padding: 0px;
     margin: 0px;

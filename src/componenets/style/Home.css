@@ -18,11 +18,13 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
-@media screen and (max-width: 899px) {
+@media screen and (max-width: 1080px) {
   .home__nav {
     border-right: 1px solid gray;
+    width: 20%;
     min-width: 30px;
     min-width: 30px;
   }
@@ -45,7 +47,6 @@
   }
   .home__list {
     width: 100%;
-    align-items: center;
 
   }
 }
