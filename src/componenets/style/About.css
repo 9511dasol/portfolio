@@ -10,6 +10,7 @@
   height: 360px;
   width: 280px;
   margin: auto;
+  border-radius: 5%;
 }
 .profile__list {
   margin-left: 1px;
