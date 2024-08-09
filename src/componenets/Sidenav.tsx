@@ -22,7 +22,7 @@ function Sidenav() {
             <span>project</span>
           </button>
         </Link>
-        <Link to={"/Publishing"}>
+        <Link to={"/publishing"}>
           <button className="sidenav__button">
             <BrushIcon />
             <span>Publishing</span>
