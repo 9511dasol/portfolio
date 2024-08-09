@@ -116,4 +116,4 @@ function Skill() {
     );
 }
 
-export default Skill
+export default Skill;
