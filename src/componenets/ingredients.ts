@@ -76,7 +76,7 @@ export const publishing: Project[] = [
     title: "퍼블리싱",
     subheading: "퍼블리싱-animation(MODAL연구중)",
     img: "./img/publishing/pub2.png",
-    description: "퍼블리싱",
+    description: "퍼블리싱(MODAL연구중)",
     link: "https://9511dasol.github.io/publishing-animaion/",
   },
 
