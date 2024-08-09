@@ -2,7 +2,7 @@ import React from "react";
 import "./style/Sidenav.css";
 import { Link } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
-import ChatIcon from "@mui/icons-material/Chat";
+import BrushIcon from '@mui/icons-material/Brush';
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import FormatBoldIcon from "@mui/icons-material/FormatBold";
@@ -22,10 +22,10 @@ function Sidenav() {
             <span>project</span>
           </button>
         </Link>
-        <Link to={"/Message"}>
+        <Link to={"/Publishing"}>
           <button className="sidenav__button">
-            <ChatIcon />
-            <span>Message</span>
+            <BrushIcon />
+            <span>Publishing</span>
           </button>
         </Link>
         <a href="https://velog.io/@9511dasol/posts" target="_blank">

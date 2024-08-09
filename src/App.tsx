@@ -4,7 +4,7 @@ import './App.css';
 import Home from './componenets/Home';
 import About from './componenets/About';
 import Project from './componenets/Project';
-import Message from './componenets/Message';
+import Publishing from './componenets/Publishing';
 const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
@@ -14,7 +14,7 @@ const App = () => {
           <Route index element={<About />} />
           <Route path="/home" element={<About />} />
           <Route path="/project" element={<Project />} />
-          <Route path="/Message" element={<Message />} />
+          <Route path="/publishing" element={<Publishing />} />
         </Route>
       </Routes>
       {/* </Router> */}

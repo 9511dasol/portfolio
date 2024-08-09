@@ -7,61 +7,80 @@ export const projects: Project[] = [
   {
     title: "카드를 추천해주는 청년들",
     subheading: "Card",
-    img: "./img/card.png",
+    img: "./img/project/card.png",
     description: "AI(자연어 처리)를 이용한 카드 추천 웹사이트 제작",
     link: "https://github.com/9511dasol/Card",
   },
   {
     title: "영어 타자 연습",
     subheading: "Taja",
-    img: "./img/taja.png",
+    img: "./img/project/taja.png",
     description: "영어 긴 글 타자 연습 프로그램 만들기",
     link: "https://github.com/9511dasol/Eng_Taja_Practice",
   },
   {
     title: "Lotto Program",
     subheading: "Lotto",
-    img: "./img/lotto.png",
+    img: "./img/project/lotto.png",
     description: "오픈소프트웨어를 활용한 로또 프로그램 만들기",
     link: "https://github.com/9511dasol/Lotto",
   },
   {
     title: "포트플리오",
     subheading: "Portfolio",
-    img: "./img/portfolio.png",
+    img: "./img/project/portfolio.png",
     description: "포트플리오",
     link: "https://github.com/9511dasol/portfolio",
   },
   {
     title: "쇼핑몰 홈페이지",
     subheading: "For JSP",
-    img: "./img/shop.png",
+    img: "./img/project/shop.png",
     description: "쿠팡을 참고하여 만든 쇼핑몰 홈페이지",
     link: "https://github.com/9511dasol/MiniProject",
   },
   {
     title: "싸이월드 미니홈피(클론코딩)",
     subheading: "mini Homepage",
-    img: "./img/Minihomepage.png",
+    img: "./img/project/Minihomepage.png",
     description: "싸이월드 메인 홈페이지와 미니홈피 클론코딩",
     link: "https://github.com/9511dasol/MiniProject_2",
   },
   {
     title: "Project of Instagram DM clone coding",
     subheading: "DM of Instagram",
-    img: "./img/DM.png",
+    img: "./img/project/DM.png",
     description: "인스타그램을 참고하여 만든 인스타그램 dm - 프로젝트",
     link: "https://github.com/9511dasol/dm",
   },
   {
     title: "Instagram clone coding",
     subheading: "Instagram",
-    img: "./img/inst-clone.png",
+    img: "./img/project/inst-clone.png",
     description: "인스타그램을 참고하여 만든 인스타그램",
     link: "https://github.com/9511dasol/instagram-clone",
   },
 ]
 
+export const publishing: Project[] = [
+
+  {
+    title: "퍼블리싱",
+    subheading: "퍼블리싱",
+    img: "./img/publishing/pub1.png",
+    description: "퍼블리싱",
+    link: "https://9511dasol.github.io/Publishing/",
+  },
+
+  {
+    title: "퍼블리싱",
+    subheading: "퍼블리싱-animation(MODAL연구중)",
+    img: "./img/publishing/pub2.png",
+    description: "퍼블리싱",
+    link: "https://9511dasol.github.io/publishing-animaion/",
+  },
+
+]
 
 export const allIngredients = [
   { icon: "🖼️", label: "Image" },
