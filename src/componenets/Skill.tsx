@@ -32,6 +32,7 @@ function Skill() {
         { lang: 'C#', img: "./img/BE/CSHARP.png" },
         { lang: 'JAVA', img: "./img/BE/JAVA.png" },
         { lang: 'Python', img: "./img/BE/PYTHON.png" },
+        { lang: 'Next.js', img: "./img/BE/NEXTJS.png"}
     ]
     const vercon: Skills[] = [
         { lang: 'Github', img: "./img/VC/github.png" },
