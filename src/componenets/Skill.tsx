@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import "./style/Skill.css";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faReact } from "@fortawesome/free-brands-svg-icons";
@@ -12,109 +12,107 @@ import "./style/Skill.css";
 // import { faJava } from "@fortawesome/free-brands-svg-icons";
 
 interface Skills {
-    lang: string,
-    img: string,
+  lang: string;
+  img: string;
 }
 
-
 function Skill() {
-    const frontend: Skills[] = [
-        { lang: 'HTML5', img: "./img/FE/HTML5.png" },
-        { lang: 'CSS3', img: "./img/FE/CSS.png" },
-        { lang: 'JavaScript', img: "./img/FE/JS.png" },
-        { lang: 'jQuery', img: "./img/FE/jquery.png" },
-        { lang: 'React', img: "./img/FE/REACT.png" },
-        { lang: 'TypeScript', img: "./img/FE/TS.png" },
-    ]
-    const backend: Skills[] = [
-        { lang: 'C', img: "./img/BE/C.png" },
-        { lang: 'C++', img: "./img/BE/CPP.png" },
-        { lang: 'C#', img: "./img/BE/CSHARP.png" },
-        { lang: 'JAVA', img: "./img/BE/JAVA.png" },
-        { lang: 'Python', img: "./img/BE/PYTHON.png" },
-        { lang: 'Next.js', img: "./img/BE/NEXTJS.png"}
-    ]
-    const vercon: Skills[] = [
-        { lang: 'Github', img: "./img/VC/github.png" },
-        { lang: 'Git', img: "./img/VC/git.png" },
-    ]
+  const frontend: Skills[] = [
+    { lang: "HTML5", img: "./img/FE/HTML5.png" },
+    { lang: "CSS3", img: "./img/FE/CSS.png" },
+    { lang: "JavaScript", img: "./img/FE/JS.png" },
+    { lang: "jQuery", img: "./img/FE/jquery.png" },
+    { lang: "React", img: "./img/FE/REACT.png" },
+    { lang: "TypeScript", img: "./img/FE/TS.png" },
+  ];
+  const backend: Skills[] = [
+    { lang: "C", img: "./img/BE/C.png" },
+    { lang: "C++", img: "./img/BE/CPP.png" },
+    { lang: "C#", img: "./img/BE/CSHARP.png" },
+    { lang: "JAVA", img: "./img/BE/JAVA.png" },
+    { lang: "Python", img: "./img/BE/PYTHON.png" },
+  ];
+  const vercon: Skills[] = [
+    { lang: "Github", img: "./img/VC/github.png" },
+    { lang: "Git", img: "./img/VC/git.png" },
+  ];
 
-    const database: Skills[] = [
-        { lang: 'MySQL', img: "./img/DB/MySQL.jpg" },
-        { lang: 'MongoDB', img: "./img/DB/MongoDB.png" },
-        { lang: 'Oracle', img: "./img/DB/Oracle.png" },
-    ]
-    const framework: Skills[] = [
-        {lang: 'Django', img: './img/Framework/Django.jpg'},
-        {lang: 'Spring', img: './img/Framework/Spring.png'},
-        {lang: 'Flask', img: './img/Framework/Flask.png'},
-        {lang: 'ASP.NET', img: './img/Framework/ASP_dot_Net.png'},
-        {lang: '.NET', img: './img/Framework/dotnet.png'},
-    ]
-    return (
-        <div className='sc'>
-            <h2>Main Skills</h2>
-            <ul className='sc__sl'>
-                <li className='c__skills' id='FE'>
-                    <h2>FrontEnd</h2>
-                    <ul>
-                        {frontend.map((skill, index) => (
-                            <li className="skill__list" key={index}>
-                                <img src={skill.img} />
-                                <span className="skill-name">{skill.lang}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li className='c__skills' id='BE'>
-                    <h2>BackEnd</h2>
-                    <ul>
-                        {backend.map((skill, index) => (
-                            <li className="skill__list" key={index}>
-                                <img src={skill.img} />
-                                <span className="skill-name">{skill.lang}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li className='c__skills' id='DB'>
-                    <h2>Framework</h2>
-                    <ul>
-                        {framework.map((skill, index) => (
-                            <li className="skill__list" key={index}>
-                                <img src={skill.img} />
-                                <span className="skill-name">{skill.lang}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                <li className='c__skills' id='DB'>
-                    <h2>DataBase</h2>
-                    <ul>
-                        {database.map((skill, index) => (
-                            <li className="skill__list" key={index}>
-                                <img src={skill.img} />
-                                <span className="skill-name">{skill.lang}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-                
-                <li className='c__skills' id='VC'>
-                    <h2>VC</h2>
-                    <ul>
-                        {vercon.map((skill, index) => (
-                            <li className="skill__list" key={index}>
-                                <img src={skill.img} />
-                                <span className="skill-name">{skill.lang}</span>
-                            </li>
-                        ))}
-                    </ul>
-                </li>
-            </ul>
-        </div>
+  const database: Skills[] = [
+    { lang: "MySQL", img: "./img/DB/MySQL.jpg" },
+    { lang: "MongoDB", img: "./img/DB/MongoDB.png" },
+    { lang: "Oracle", img: "./img/DB/Oracle.png" },
+  ];
+  const framework: Skills[] = [
+    { lang: "Next.js", img: "./img/BE/NEXTJS.png" },
+    { lang: "Django", img: "./img/Framework/Django.jpg" },
+    { lang: "Spring", img: "./img/Framework/Spring.png" },
+    { lang: "Flask", img: "./img/Framework/Flask.png" },
+    { lang: "ASP.NET", img: "./img/Framework/ASP_dot_Net.png" },
+    { lang: ".NET", img: "./img/Framework/dotnet.png" },
+  ];
+  return (
+    <div className="sc">
+      <h2>Main Skills</h2>
+      <ul className="sc__sl">
+        <li className="c__skills" id="FE">
+          <h2>FrontEnd</h2>
+          <ul>
+            {frontend.map((skill, index) => (
+              <li className="skill__list" key={index}>
+                <img src={skill.img} />
+                <span className="skill-name">{skill.lang}</span>
+              </li>
+            ))}
+          </ul>
+        </li>
+        <li className="c__skills" id="BE">
+          <h2>BackEnd</h2>
+          <ul>
+            {backend.map((skill, index) => (
+              <li className="skill__list" key={index}>
+                <img src={skill.img} />
+                <span className="skill-name">{skill.lang}</span>
+              </li>
+            ))}
+          </ul>
+        </li>
+        <li className="c__skills" id="DB">
+          <h2>Framework</h2>
+          <ul>
+            {framework.map((skill, index) => (
+              <li className="skill__list" key={index}>
+                <img src={skill.img} />
+                <span className="skill-name">{skill.lang}</span>
+              </li>
+            ))}
+          </ul>
+        </li>
+        <li className="c__skills" id="DB">
+          <h2>DataBase</h2>
+          <ul>
+            {database.map((skill, index) => (
+              <li className="skill__list" key={index}>
+                <img src={skill.img} />
+                <span className="skill-name">{skill.lang}</span>
+              </li>
+            ))}
+          </ul>
+        </li>
 
-    );
+        <li className="c__skills" id="VC">
+          <h2>VC</h2>
+          <ul>
+            {vercon.map((skill, index) => (
+              <li className="skill__list" key={index}>
+                <img src={skill.img} />
+                <span className="skill-name">{skill.lang}</span>
+              </li>
+            ))}
+          </ul>
+        </li>
+      </ul>
+    </div>
+  );
 }
 
 export default Skill;
