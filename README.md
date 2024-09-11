@@ -4,7 +4,9 @@
 ## 프로젝트 소개 🖥️
 My Portfolio
 
-https://9511dasol.github.io/portfolio/
+[demo](https://portfolio-six-tawny-63.vercel.app/)
+
+
 ## 개발 기간 ⏱️
 23.11.23 - ing
 
