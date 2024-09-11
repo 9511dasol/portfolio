@@ -161,6 +161,7 @@ span {
     border-bottom-right-radius: 0;
     border-bottom: 1px solid #eeeeee;
     height: 44px;
+    color: black;
 }
 
 .tabs {

@@ -17,6 +17,12 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/skill/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/skill/page.css",
+      "static/chunks/app/skill/page.js"
+    ],
     "/project/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -28,17 +34,6 @@
       "static/chunks/main-app.js",
       "static/css/app/publishing/page.css",
       "static/chunks/app/publishing/page.js"
-    ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
-    ],
-    "/skill/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/skill/page.css",
-      "static/chunks/app/skill/page.js"
     ]
   }
 }
