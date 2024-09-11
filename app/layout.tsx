@@ -2,7 +2,10 @@ import Header from "../components/navbar";
 import "../styles/global.css";
 
 export const metadata = {
-  title: "Dasol Han",
+  title: {
+    template: "%s | Dasol Han",
+    default: "Dasol Han",
+  },
   description: "Dasol's Portfolio",
 };
 

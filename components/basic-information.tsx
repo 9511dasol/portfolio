@@ -1,3 +1,4 @@
+"use client";
 import "../styles/section.css";
 import { useEffect } from "react";
 import Link from "next/link";
@@ -71,9 +72,6 @@ export default function BaInfo() {
             </Link>
             <Link href="https://github.com/9511dasol" target="_blank">
               <i className="bx bxl-github" />
-            </Link>
-            <Link href="https://www.instagram.com/lu_daso" target="_blank">
-              <i className="bx bxl-instagram" />
             </Link>
           </div>
           {/* <Link href="#" className="btn">
