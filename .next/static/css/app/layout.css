@@ -45,7 +45,7 @@ nav a.active {
 }
 
 @media(max-width:995px) {
-    nav {
+    header>nav {
         position: absolute;
         display: none;
         top: 0;
@@ -59,18 +59,18 @@ nav a.active {
         border-top: 0.1rem solid rgba(0, 0, 0, 0.1);
     }
 
-    nav.active {
+    header nav.active {
         display: block;
     }
 
-    nav a {
+    header nav a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
 
-    nav a:hover,
-    nav a.active {
+    header nav a:hover,
+    header nav a.active {
         padding: 1rem;
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4d;
