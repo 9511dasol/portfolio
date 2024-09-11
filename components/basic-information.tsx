@@ -76,9 +76,9 @@ export default function BaInfo() {
               <i className="bx bxl-instagram" />
             </Link>
           </div>
-          <Link href="#" className="btn">
+          {/* <Link href="#" className="btn">
             Hire Me
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>
