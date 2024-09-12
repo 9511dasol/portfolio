@@ -50,8 +50,6 @@ export default function BaInfo() {
 
     // 초기 애니메이션 시작
     typeWriter();
-
-    // 컴포넌트 언마운트 시 애니메이션 정지
   }, []);
   return (
     <section className="home">

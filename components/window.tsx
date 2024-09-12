@@ -44,7 +44,7 @@ function Window({ ingredients, project }: WindowProps) {
 
   return (
     <div className="window">
-      <nav className="nav">
+      <nav>
         <ul>
           {ingredients.map((item, idx) => (
             <li
