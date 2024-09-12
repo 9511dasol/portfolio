@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
   const path = usePathname();
-  const [nav, setNav] = useState<boolean>(true);
+  const [nav, setNav] = useState<boolean>(false); // 처음엔 false로 설정
 
   useEffect(() => {
     const handleResize = () => {
@@ -17,10 +17,8 @@ export default function Header() {
       }
     };
 
-    // 페이지가 로드될 때 화면 크기를 확인
+    // 페이지가 로드될 때와 resize 이벤트 발생시 화면 크기를 확인
     handleResize();
-
-    // resize 이벤트 리스너 추가
     window.addEventListener("resize", handleResize);
 
     // 컴포넌트가 언마운트될 때 이벤트 리스너 제거
@@ -29,12 +27,11 @@ export default function Header() {
 
   useEffect(() => {
     if (window.innerWidth <= 995) {
-      setNav((prev) => !prev);
-    } else {
-      setNav(true);
+      setNav(false); // path가 변경될 때는 화면 크기가 995 이하일 경우 항상 nav를 false로
     }
   }, [path]);
 
+  // 햄버거 메뉴를 클릭할 때 nav 상태를 토글 (995px 이하에서만)
   const toggleNav = () => {
     if (window.innerWidth <= 995) {
       setNav((prevNav) => !prevNav);
