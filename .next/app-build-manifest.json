@@ -28,6 +28,12 @@
       "static/chunks/main-app.js",
       "static/css/app/project/page.css",
       "static/chunks/app/project/page.js"
+    ],
+    "/skill/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/skill/page.css",
+      "static/chunks/app/skill/page.js"
     ]
   }
 }

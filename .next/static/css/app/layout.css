@@ -44,11 +44,16 @@ nav a.active {
     transform: scale(1.1);
 }
 
+header .bx {
+    display: none;
+    cursor: pointer;
+}
+
 @media(max-width:995px) {
     header>nav {
         position: absolute;
-        display: none;
-        top: 0;
+        display: block;
+        top: 7vw;
         right: 0;
         width: 40%;
         border-left: 3px solid #b74b4d;
@@ -76,6 +81,9 @@ nav a.active {
         border-bottom: 0.5rem solid #b74b4d;
     }
 
+    header .bx {
+        display: block;
+    }
 }
 /*!***************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/global.css ***!
