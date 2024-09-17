@@ -39,7 +39,7 @@ function Skills() {
             ))}
           </ul>
         </li>
-        <li className="c__skills" id="DB">
+        <li className="c__skills" id="FW">
           <h2>Framework</h2>
           <ul>
             {framework.map((skill, index) => (

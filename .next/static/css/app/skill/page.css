@@ -37,7 +37,7 @@ li {
 }
 
 .sc__sl {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: auto;
@@ -55,10 +55,15 @@ li {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
+.c__skills h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+
 .c__skills ul {
     margin: 0px;
     padding: 0px;
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
 }
 
@@ -71,7 +76,7 @@ li {
     } */
 .skill__list {
     text-align: center;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 
 .c__skills li img {

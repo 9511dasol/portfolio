@@ -10,6 +10,7 @@ import PYTHON from "./img/BE/PYTHON.png";
 import MongoDB from "./img/DB/MongoDB.png";
 import MySQL from "./img/DB/MySQL.jpg";
 import Oracle from "./img/DB/Oracle.png";
+import FireBase from "./img/DB/FireBase.png";
 
 import CSS from "./img/FE/CSS.png";
 import HTML5 from "./img/FE/HTML5.png";
@@ -29,6 +30,7 @@ import Spring from "./img/Framework/Spring.png";
 
 import git from "./img/VC/git.png";
 import github from "./img/VC/github.png";
+import Vercel from "./img/VC/Vercel.png";
 
 
 import card from "./img/project/card.png";
@@ -71,35 +73,37 @@ export const frontend: Skills[] = [
     { lang: "HTML5", img: HTML5 },
     { lang: "CSS3", img: CSS },
     { lang: "JavaScript", img: JS },
-    { lang: "jQuery", img: jquery },
     { lang: "React", img: REACT },
     { lang: "TypeScript", img: TS },
+    { lang: "jQuery", img: jquery },
 ];
 
 export const backend: Skills[] = [
     { lang: "C", img: C },
     { lang: "C++", img: CPP },
+    { lang: "Python", img: PYTHON },
     { lang: "C#", img: CSHARP },
     { lang: "JAVA", img: JAVA },
-    { lang: "Python", img: PYTHON },
 ];
 
 export const vercon: Skills[] = [
     { lang: "Github", img: github },
     { lang: "Git", img: git },
+    { lang: "Vercel", img: Vercel },
 ];
 
 export const database: Skills[] = [
     { lang: "MySQL", img: MySQL },
     { lang: "MongoDB", img: MongoDB },
     { lang: "Oracle", img: Oracle },
+    { lang: "FireBase", img: FireBase },
 ];
 
 export const framework: Skills[] = [
     { lang: "Next.js", img: NEXTJS },
+    { lang: "Flask", img: Flask },
     { lang: "Django", img: Django },
     { lang: "Spring", img: Spring },
-    { lang: "Flask", img: Flask },
     { lang: "ASP.NET", img: ASP_dot_Net },
     { lang: ".NET", img: dotnet },
 ];

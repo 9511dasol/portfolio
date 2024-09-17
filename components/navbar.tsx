@@ -38,6 +38,25 @@ export default function Header() {
     }
   };
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      const targets = event.target as Element;
+      if (window.innerWidth <= 995 && nav && !targets.closest(".nav")) {
+        setNav(false);
+      }
+    };
+
+    if (nav) {
+      document.addEventListener("click", handleClickOutside);
+    } else {
+      document.removeEventListener("click", handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener("click", handleClickOutside);
+    };
+  }, [nav]);
+
   return (
     <header>
       <Link href="/" className="logo">
