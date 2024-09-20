@@ -21,6 +21,7 @@
     margin: 50px auto;
     min-height: 100vh;
     padding: 5rem 9% 5rem;
+    box-sizing: border-box;
 
     background: transparent;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
@@ -36,7 +37,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
+    margin: 0;
     padding: 0px;
 }
 
@@ -99,17 +100,7 @@
     .sc__sl {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto;
-        grid-gap: 5px;
-        gap: 5px;
-        flex-direction: column;
-        flex-wrap: wrap;
+        /* grid-template-rows: auto; */
         width: 100%;
-    }
-
-    .c__skills {
-        display: inline-flex;
-        flex-direction: column;
-        box-sizing: border-box;
     }
 }
