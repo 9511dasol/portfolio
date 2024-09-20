@@ -92,6 +92,7 @@
     /* 마우스 호버 시 요소 확대 */
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     /* 마우스 호버 시 그림자 효과 추가 */
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 1080px) {
