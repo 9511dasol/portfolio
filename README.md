@@ -10,7 +10,7 @@ My Portfolio
 ## 개발 기간 ⏱️
 23.11.23 - ing
 
-24.09 ~ 보수 작업 예정 (NEXT.JS)
+24.09 ~ 보수 작업중 (NEXT.JS)
 
 ### 개발 환경 ⚙️
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
