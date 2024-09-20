@@ -72,7 +72,6 @@ export interface Project {
 export const frontend: Skills[] = [
     { lang: "HTML5", img: HTML5 },
     { lang: "CSS3", img: CSS },
-    { lang: "JavaScript", img: JS },
     { lang: "React", img: REACT },
     { lang: "TypeScript", img: TS },
     { lang: "jQuery", img: jquery },
@@ -81,6 +80,7 @@ export const frontend: Skills[] = [
 export const backend: Skills[] = [
     { lang: "C", img: C },
     { lang: "C++", img: CPP },
+    { lang: "JavaScript", img: JS },
     { lang: "Python", img: PYTHON },
     { lang: "C#", img: CSHARP },
     { lang: "JAVA", img: JAVA },
