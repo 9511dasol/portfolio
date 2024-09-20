@@ -101,6 +101,12 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         /* grid-template-rows: auto; */
-        width: 100%;
+        grid-gap: 30px;
+        gap: 30px;
+        justify-content: center;
+        margin: 0;
+        /* 마진 초기화 */
+        padding: 0;
+        /* 패딩 초기화 */
     }
 }
