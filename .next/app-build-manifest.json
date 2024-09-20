@@ -15,19 +15,20 @@
     "/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/not-found.css",
       "static/chunks/app/not-found.js"
+    ],
+    "/_not-found/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/_not-found/page.css",
+      "static/chunks/app/_not-found/page.js"
     ],
     "/skill/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/skill/page.css",
       "static/chunks/app/skill/page.js"
-    ],
-    "/project/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/project/page.css",
-      "static/chunks/app/project/page.js"
     ]
   }
 }

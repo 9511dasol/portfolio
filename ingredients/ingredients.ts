@@ -100,7 +100,7 @@ export const database: Skills[] = [
 ];
 
 export const framework: Skills[] = [
-    { lang: "Next.js", img: NEXTJS },
+    { lang: "Next", img: NEXTJS },
     { lang: "Flask", img: Flask },
     { lang: "Django", img: Django },
     { lang: "Spring", img: Spring },
