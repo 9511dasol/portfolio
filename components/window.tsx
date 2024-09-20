@@ -2,6 +2,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { Ingredient, Project } from "../ingredients/ingredients";
 import { StaticImageData } from 'next/image';
+import Link from "next/link";
 
 interface WindowProps {
   ingredients: Ingredient[];
@@ -29,16 +30,16 @@ function Window({ ingredients, project }: WindowProps) {
   let contents = <></>;
   if (selectedIngd == ingredients[0]) {
     contents = (
-      <a href={c}>
+      <Link href={c} target="_blank">
         <img src={b.src} />
-      </a>
+      </Link>
     );
   } else {
     contents = (
-      <>
+      <div className="pro__info">
         <h2>{project.title}</h2>
         <p>{project.description}</p>
-      </>
+      </div>
     );
   }
 
