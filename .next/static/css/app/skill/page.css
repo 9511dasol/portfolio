@@ -15,14 +15,10 @@
     background-color: black;
 } */
 
-ul,
-li {
-    list-style: none;
-}
+
 
 .sc {
     margin: 50px auto;
-    max-width: 960px;
     min-height: 100vh;
     padding: 5rem 9% 5rem;
 
@@ -55,7 +51,7 @@ li {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.c__skills h2{
+.c__skills h2 {
     text-align: center;
     margin-bottom: 5px;
 }
