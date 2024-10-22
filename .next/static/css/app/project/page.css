@@ -1,0 +1,170 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./styles/project.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.project__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    padding: 5rem 9% 5rem;
+}
+
+.window {
+    width: 100%;
+    max-width: 960px;
+    border-radius: 10px;
+    background: transparent;
+    overflow: hidden;
+    box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+        0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+        0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 5px;
+}
+
+.window nav {
+    background: #fdfdfd;
+    padding: 5px 5px 0;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom: 1px solid #eeeeee;
+    height: 44px;
+    color: black;
+}
+
+.tabs {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.window main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    flex-grow: 1;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+    background: transparent;
+}
+.window main .pro__info{
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.window main img {
+    width: 100%;
+}
+
+.window main img:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.window main h2,
+.window main p {
+    text-align: center;
+    align-items: center;
+}
+
+.window ul,
+.window li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.window ul {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.window li {
+    border-radius: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 100%;
+    padding: 10px 15px;
+    position: relative;
+    background: white;
+    cursor: pointer;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1;
+    min-width: 0;
+    position: relative;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+            user-select: none;
+}
+
+.window .underline {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: black;
+}
+
+.window li.selected {
+    background: rgb(184, 179, 179);
+}
+
+.window li button {
+    width: 20px;
+    height: 20px;
+    border: 0;
+    background: #fff;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    stroke: #000;
+    margin-left: 10px;
+    cursor: pointer;
+    flex-shrink: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background: #fff;
+}
+
+.add-item {
+    width: 30px;
+    height: 30px;
+    background: #eee;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    align-self: center;
+}
+
+.add-item:disabled {
+    opacity: 0.4;
+    cursor: default;
+    pointer-events: none;
+}
+
