@@ -108,6 +108,9 @@ body {
     overflow-x: hidden;
     background-color: black;
     color: white;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
 }
 
 ul,

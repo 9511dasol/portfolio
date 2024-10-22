@@ -6,6 +6,7 @@ import CPP from "./img/BE/CPP.png";
 import CSHARP from "./img/BE/CSHARP.png";
 import JAVA from "./img/BE/JAVA.png";
 import PYTHON from "./img/BE/PYTHON.png";
+import node from "./img/BE/nodejs.png";
 
 import MongoDB from "./img/DB/MongoDB.png";
 import MySQL from "./img/DB/MySQL.jpg";
@@ -101,6 +102,7 @@ export const database: Skills[] = [
 
 export const framework: Skills[] = [
     { lang: "Next", img: NEXTJS },
+    { lang: "Node", img: node},
     { lang: "Flask", img: Flask },
     { lang: "Django", img: Django },
     { lang: "Spring", img: Spring },
